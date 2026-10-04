@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin:0;
+  }
+  
+.header {
+    padding: 100px;
+    text-align: center;
+    /* 
+    color: aliceblue;
+    font-size: 36px;
+    font-weight: bold;
+    background-image: url("background.jpg");    
+    */            /* <------ */
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+}
+
+.footer{
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(54, 58, 58);
+    height: 50px;
+}
+
+.push {
+    height: 50px;
+}
+
+
+.ui-tabs .ui-tabs-nav {
+    text-align: center;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    float: none !important;
+    display: inline-block;
+}
+
+.ui-dialog-buttonset .ui-button {
+    background: green;
+}
